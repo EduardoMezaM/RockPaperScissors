@@ -4,13 +4,22 @@ function getComputerChoice(){
     const randomNumber = Math.floor(Math.random() * 3);
     console.log(randomNumber);
     if(randomNumber === 0){
-        return 'Rock'
+        return 'rock'
     }
     else if(randomNumber === 1){
-        return 'Paper'
+        return 'paper'
     }
     else{
-        return 'Scissors'
+        return 'scissors'
     }
 }
-console.log(getComputerChoice());
+
+function getHumanChoice(){
+    const choice = prompt('Enter your choice: ');
+    return choice;
+}
+
+const computer = getComputerChoice();
+console.log(computer);
+const human = getHumanChoice();
+console.log(human);
