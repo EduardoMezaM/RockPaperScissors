@@ -1,15 +1,15 @@
-console.log('Linked correctly!')
+console.log('Linked correctly!');
 
 function getComputerChoice(){
     const randomNumber = Math.floor(Math.random() * 3);
     if(randomNumber === 0){
-        return 'rock'
+        return 'rock';
     }
     else if(randomNumber === 1){
-        return 'paper'
+        return 'paper';
     }
     else{
-        return 'scissors'
+        return 'scissors';
     }
 }
 
