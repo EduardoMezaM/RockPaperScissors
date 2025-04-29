@@ -14,7 +14,7 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    const choice = prompt('Enter your choice: ');
+    const choice = prompt('Enter your choice (rock, paper, or scissors): ');
     return choice;
 }
 
@@ -42,7 +42,6 @@ let computerSelection = '';
 let humanSelection = '';
 
 function playGame(){
-
     for (let round = 1; round <= 5; round++) {
         console.log(`Round ${round}`);
         
